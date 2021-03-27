@@ -1,4 +1,4 @@
-package com.microschat.personaldataservice.register;
+package com.microschat.personaldataservice.user;
 
 import lombok.*;
 

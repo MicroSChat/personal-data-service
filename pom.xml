@@ -15,6 +15,7 @@
     <description>Microservice which holds data about users.</description>
     <properties>
         <java.version>11</java.version>
+        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
     </properties>
     <repositories>
         <repository>
@@ -43,6 +44,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+            <version>1.18.16</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
@@ -75,7 +77,7 @@
         <dependency>
             <groupId>com.github.MicroSChat</groupId>
             <artifactId>common-library</artifactId>
-            <version>-fb0e54acda-1</version>
+            <version>-e9c1f820b1-1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -85,6 +87,11 @@
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-rabbit-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>${org.mapstruct.version}</version>
         </dependency>
     </dependencies>
 
